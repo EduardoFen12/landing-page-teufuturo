@@ -7,6 +7,59 @@ body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
     outline: none;
     font-family: 'Roboto', sans-serif;
 }
-.cabecalho .cabecalho__logo img{
-    width: 60px;
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo-titulo {
+    width: 20%;
+}
+
+nav {
+    position: absolute;
+    top: 84.5px;
+    right: 0;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #7D5AC2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.rodape {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 30px 0;
+}
+
+.copyrigth {
+    color: #7D5AC2;
+    font-size: 13px;
+    padding: 20px 0 0;
 }
